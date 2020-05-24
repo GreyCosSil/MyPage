@@ -184,8 +184,13 @@ a:active{
 
 .contato a {
     background-size: auto;
-    font-size:4em;
+    font-size:2em;
     text-decoration: none;
+}
+@media(min-width:600px){
+    .contato a{
+        font-size:4em;
+    }
 }
 
 .contato a:active,
