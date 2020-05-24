@@ -99,11 +99,12 @@ header{
 .menu a{
     color:teal;
     display: block;
-    padding: auto auto;
+    padding-top:5px;
     transition: background, color 500ms;
     text-decoration: none;
     font-size: 8px;
     padding: 5px 10px;
+    
   } 
 @media(min-width: 800px){
     .menu a{
