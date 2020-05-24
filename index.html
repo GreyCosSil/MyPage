@@ -1,62 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/estilo.css">
     <title>Greyce Silva</title>
-    <link rel="stylesheet" href="CSS/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Coustard&family=Josefin+Slab:wght@600&display=swap" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/016a83a464.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
     <header>
         <nav class="menu">
-            <ul>
-                <li><a href="sobre.html">About</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Interests</a></li>
-                <li><a href="#">Awards</a></li>
-                <li><a href="contato.html">Contact</a></li>
+            <ul class="container">
+                <li><a href="#about">About</a></li>
+                <li><a href="#exp">Experience</a></li>
+                <li><a href="#edu">Education</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#int">Interests</a></li>
+                <li><a href="#award">Awards</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <div>
+        <div class="titulo">
             <h1 class="site-title">Greyce da Costa Silva</h1>
-            <h2 class="site-subtitle">Electrical Engineer</h2>
-
         </div>
     </header>
-
-    <section class="projetos">
-        <h2>Projects</h2>
-        <div class="grid">
-            <figure>
-                <img class="img-portfolio" src="#"
-                alt="Técnica em Telecomunicações">
-                <figcaption>Working on Telecommunication Projects</figcaption>
-            </figure>
-
-            <figure>
-                <img class="img-portfolio" src="#"
-                    alt="Machine Learning">
-                <figcaption>Becoming a ML Engineer</figcaption>
-            </figure>
-            <figure>
-                <img class="img-portfolio" src="#"
-                    alt="Social Work">
-                <figcaption>Social Work</figcaption>
-            </figure>
-            <figure>
-                <img class="img-portfolio" src="#"
-                    alt="Mind and body">
-             <figcaption>Mind and body</figcaption>
-            </figure>
-        </div>
+    <section class="project" id="about">
+        <h2>About me</h2>
+        <figure>
+            <img class="avatar" src="./img/aquaman.jpg"
+            alt="CCXP18">
+            <figcaption></figcaption>
+        </figure>        
+        <h4>Hi! My name is Greyce, I'm 26 years old and I'm from Pará Brazil. I live in SP since i was fourteen :)</h4>
+        <p>In my free time I usually run and pratice physical activities as well as studying programming languages and playing with my cat.</p>
 
     </section>
+    <section class="project" id="exp">
+        <h2>Experience</h2>
+        <h3>Process Analyst I</h3>
+        <h4>Alstom Transport | From January 2020 To Current</h4>
+        <p>Configurations and tests for equipment and software for projects aimed at railway systems, Preparation of documentation, reports, controls and information manipulation.</p>
+        <h3>Engineering Intern</h3>
+        <h4>Alstom Transport | From May 2018 To December 2019</h4>
+        <p>Preparation of Projects and Hardware applications according to technical specifications, documents, Drawings and various analyzes for Telecommunications projects, involving Radio Solutions, networks, Optical Fibers, among others.</p>
+        <h3>Comercial Assistant II</h3>
+        <h4>Telemar Norte Leste | From May 2015 To May 2018</h4>
+        <p>Responsible for projects of implementation, upgrade and configuration of data services for medium and large customers in the B2B segment, in coordinating the evolution of the project with the parties involved and resolving complex solutions with the customer, business areas and operations.</p>
+        <h3>Technical Support Analyst I</h3>
+        <h4>Atento Brasil | From September 2013 To May 2015</h4>
+        <p>Analysis of calls related to occurrences in the external metallic network of Telefônica and direction for resolution in the field and Creation of reports and bases for analysis of production and quality indicators for the client.</p>
+        
+    </section>   
+    <section class="project educa" id="edu">
+        <h2>Education</h2>
+        <h3>Bachelor's Degree Electrical Engineering</h3>
+        <h4><a href="https://www.usjt.br/">Universidade São Judas Tadeu</a> | From 2014 To 2019</h4>
+        <h3><a href="https://drive.google.com/file/d/18tldZDpbbFGffj7unfEug2ZJsfsudSwQ/view?usp=sharing">Telecommunications Technical</a></h3>
+        <h4>SENAI Roberto Simonsen | From 2012 To 2013</h4>
+        <h3>Assistente de Projetos e Instalações de Telecomunicações</h3>
+        <h4><a href="http://portal.utfpr.edu.br/">UTFPR</a> - Fundação IOCHPE | From July 2010 To December 2011</h4>
+        <h3>Spanish from basic to Advanced Level</h3>
+        <h4>CEL - Centro de Estudos de Línguas | From 2009 To 2011</h4>
+        <h3>Extra Courses - Data Science and Language Programming</h3>
+        <h4><a href="https://www.alura.com.br/imersao-css">Imersão CSS</a> | May 2020 | Alura</h4>
+        <h4><a href="https://www.coursera.org/account/accomplishments/certificate/ZVDUTMTNF52F">Data Analysis With Python</a> | May 2020 | IBM - Coursera<h4>
+        <h4><a href="https://www.datacamp.com/statement-of-accomplishment/course/32116a941cb48c9f212782b4662db75ac4318610">Intermediate Python</a> | May 2020 | DataCamp</h4>
+        <h4><a href="https://www.datacamp.com/statement-of-accomplishment/course/a2a913cfb55ce827b2aaceeb9e644812878ec075">Introduction to Python</a> | May 2020 | DataCamp</h4>
+        <h4><a href="https://drive.google.com/file/d/1frLoda5-g31Cq9_8Sy41OLX0AXkAcyIR/view?usp=sharing">Desenvolvimento WEB no Azure</a> | May 2020 | Azure na Prática</h4>
+        <h4><a href="https://drive.google.com/file/d/173ELVSQRhWZnxcnFeQFv7l5zTMrI0mTO/view?usp=sharing">Introdução à Ciência da Computação com Python Parte 1</a> | February 2020 To April 2020 | USP - Coursera</h4>
+        <h4><a href="https://courses.cognitiveclass.ai/certificates/407d2c7f1074439f9347b19741adc0b5">Machine Learning With Python</a> | January 2020 | IBM - Cognitive Class</h4>
+        <h4><a href="https://drive.google.com/file/d/1XycyMJ8vbauW_u7L5sshP1K66lQhzmFq/view?usp=sharing">Introdução à Ciência de Dados: Conceitos Básicos</a> | January 2020 | Linkeding Learning</h4>
+        <h4><a href="https://drive.google.com/file/d/18PWwl8tjqcdbQZezrlOLSpnwNoUYn5VT/view?usp=sharing">Descruba o Python</a> | January 2020 | Linkeding Learning</h4>
+        <h4><a href="https://drive.google.com/file/d/1s4U7dozRXO4ry57KOkUgcMU8hr0nyFo8/view?usp=sharing">Introdução à Linguagem JavaScript</a> | April 2019 | Professor Diego Mariano(Udemy)</h4>
+        <h3>Extra Courses - Project Management</h3>
+        <h4><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-6265efda-878e-4006-8401-7b3b3606f0eb.pdf">[2020] Scrum Master + Liderar Equipos Scrum y Ágil</a> | April 2020 | Udemy-certificate</h4>
+        <h4><a href="https://drive.google.com/file/d/1jyzMWxPhEWLsQQA2zxx5PNc6X75pp73G/view?usp=sharing">Técnicas Avançadas do Scrum</a> | January 2020 | Linkeding Learning</h4>
+        <h4><a href="https://drive.google.com/file/d/1A4pvgDLs2iZsEsuZuY-SJ9k1DZtuK9MZ/view?usp=sharing">Fundamentos do Scrum</a> | January 2020 | Linkeding Learning</h4>
+        <h4><a href="https://drive.google.com/file/d/1XliajQ3jJytEqvJbZypjkmLGid3BnHCD/view?usp=sharing">Seis Sigma: Green Belt</a> | January 2020 | Linkeding Learning</h4>
+        <h3>Extra Courses - Languages</h3>
+        <h4><a href="https://www.delfinschool.com/en/">Delfin English School</a> Cultural Exchange in Ireland | From June 2019 To August 2019</h4>            
+        <h4><a href="https://drive.google.com/file/d/15CsjuwpIjaNugQ3hrSggYb6xjSIGEHUD/view?usp=sharing">Comunicación y Cultura de los Países Hispanohablantes</a> | From January 2019 To June 2019 | USJT</h4>
+        <h4><a href="https://drive.google.com/file/d/1ikmVS3YM4OI7q6kaShAs9n_IJHIfr-72/view?usp=sharing ">Adult Track 4 [AT4]</a> | September 2018 | Cultura Inglesa</h4>
+        <h4><a href="https://drive.google.com/file/d/1ikmVS3YM4OI7q6kaShAs9n_IJHIfr-72/view?usp=sharing">Inglês Fundamentals</a> | November 2017 | Universidade São Judas Tadeu</h4>
+        <h3>Extra Courses - Others</h3>
+        <h4><a href="https://drive.google.com/file/d/1Cvm7WtKLWgkm9w-_3g9yvH6faq-LD7hA/view?usp=sharing">AUTOCAD 2D</a> | March 2018 | FAPEMIG</h4>
+        <h4><a href="https://drive.google.com/file/d/1AeFFXVxNSgo0YoWFRsSajnj2sYN-4k_d/view?usp=sharing">Excel 2010 - Avançado</a> | March 2018 | FAPEMIG</h4>
+    </section>
+    <section class="project" id="skill">
+        <h2>Skills</h2>
+        <h4>Software Tester</h3>
+        <h4>Project Management</h3>
+        <h4>Engineering Analyst</h4>
+    </section>
+    <section class="project" id="int">
+        <h2>Interests</h2>
+        <h4>Data Science</h4>
+        <h4>Software Engineering</h4>
+        <h4>Python Programming</h4>
+        <h4>Project Management</h4>
+    </section>
+    <section class="project" id="award">
+        <h2>Awards</h2>
+        <h3>Programa de Reconhecimento DSC em Ação</h3>
+        <h5>Recognition for improving the quality of customer service.</h4>
+        <h4>Telemar Norte Leste | July 2017</h4>
+    </section>
+    <section class="project contato" id="contact">
+        <h2>Contact</h2>
+        <div class="grid icons">
+            <a target="_blank" href="https://github.com/GreyCosSil">
+                <i class="fab fa-github"></i>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/greyce-costa-silva/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="greyce.cos.sil@gmail.com">
+                <i class="far fa-envelope"></i>
+            </a>
+            <a href="https://www.instagram.com/grey_cossil/?hl=pt-br">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/GreyceCossil">
+                <i class="fab fa-facebook"></i>
+            </a>     
+            <a href="https://twitter.com/GreyceCossil?s=08">
+                <i class="fab fa-twitter"></i>
+            </a>              
+        </div>
+    </section>
+    <section class="end">
+        <p>By ©Greyce Silva</p>
+    </section>
+    
 
 </body>
 </html>
